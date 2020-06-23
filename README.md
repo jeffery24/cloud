@@ -1,5 +1,7 @@
 # cloud
 
+[toc]
+
 ## 微服务架构
 
 
@@ -212,7 +214,7 @@ idea 中 ctrl+shift+alt+/ 选中 xxx...app.running 和 xxx...assertFocusAccessFo
   - https://docs.spring.io/spring-framework/docs/5.2.2.RELEASE/javadoc-api/org/springframework/web/client/RestTemplate.html
   - config配置类
     		ApplicationContextConfig:https://github.com/x-emory/cloud/blob/master/cloud-consumer-order80/src/main/java/com/emory/springcloud/config/ApplicationContextConfig.java
-    	创建controller
+      	创建controller
 
 测试
 
