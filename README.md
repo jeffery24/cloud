@@ -1,178 +1,172 @@
 # cloud
 
-[toc]
-
-## Î¢·şÎñ¼Ü¹¹
+## å¾®æœåŠ¡æ¶æ„
 
 
 
-##  2.2.x ºÍ H °æ
+##  2.2.x å’Œ H ç‰ˆ
 
-### ¼ò½é
+### ç®€ä»‹
 
-±¾´ÎµÄSpringCloudµÚ¶ş¼¾·ÖÎªÉÏ°ë³¡ºÍÏÂ°ë³¡
+æœ¬æ¬¡çš„SpringCloudç¬¬äºŒå­£åˆ†ä¸ºä¸ŠåŠåœºå’Œä¸‹åŠåœº
 
-ÉÏÆª
-	SpringBoot2.X°æºÍSpringCloud H°æ
-ÏÂÆª
+ä¸Šç¯‡
+	SpringBoot2.Xç‰ˆå’ŒSpringCloud Hç‰ˆ
+ä¸‹ç¯‡
 	SpringCloud Alibaba
 
-### Ä¿Â¼
+### ç›®å½•
 
 ![image-20200623174850016](cloud2.assets/image-20200623174850016.png)
 
 
 
-### Springboot°æ±¾Ñ¡Ôñ
+### Springbootç‰ˆæœ¬é€‰æ‹©
+â€‹	gitæºç åœ°å€ï¼š
+â€‹		https://github.com/spring-projects/spring-boot/releases/
+â€‹	SpringBoot2.0æ–°ç‰¹æ€§ï¼š
+â€‹		https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes
+â€‹	é€šè¿‡ä¸Šé¢å®˜ç½‘å‘ç°ï¼ŒBootå®˜æ–¹å¼ºçƒˆå»ºè®®ä½ å‡çº§åˆ°2.Xä»¥ä¸Šç‰ˆæœ¬
+â€‹	å®˜ç½‘çœ‹Bootç‰ˆæœ¬ 
+â€‹		 springboot(æˆªè‡³2019.10.26)
+â€‹		springboot(æˆªè‡³2020.2.15)
+### SpringCloudç‰ˆæœ¬é€‰æ‹©
+â€‹	gitæºç åœ°å€
+â€‹		https://github.com/spring-projects/spring-cloud/wiki
+â€‹	å®˜ç½‘ï¼š
+â€‹		https://spring.io/projects/spring-cloud
+â€‹	å®˜ç½‘çœ‹Cloudç‰ˆæœ¬ 
+â€‹		Cloudå‘½åè§„åˆ™
+â€‹		springcloud(æˆªè‡³2019.10.26)
+â€‹		springboot(æˆªè‡³2020.2.15)
 
-	gitÔ´ÂëµØÖ·£º
-		https://github.com/spring-projects/spring-boot/releases/
-	SpringBoot2.0ĞÂÌØĞÔ£º
-		https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes
-	Í¨¹ıÉÏÃæ¹ÙÍø·¢ÏÖ£¬Boot¹Ù·½Ç¿ÁÒ½¨ÒéÄãÉı¼¶µ½2.XÒÔÉÏ°æ±¾
-	¹ÙÍø¿´Boot°æ±¾ 
-		 springboot(½ØÖÁ2019.10.26)
-		springboot(½ØÖÁ2020.2.15)
-
-### SpringCloud°æ±¾Ñ¡Ôñ
-
-	gitÔ´ÂëµØÖ·
-		https://github.com/spring-projects/spring-cloud/wiki
-	¹ÙÍø£º
-		https://spring.io/projects/spring-cloud
-	¹ÙÍø¿´Cloud°æ±¾ 
-		CloudÃüÃû¹æÔò
-		springcloud(½ØÖÁ2019.10.26)
-		springboot(½ØÖÁ2020.2.15)
-
-### SpringCloudºÍSpringbootÖ®¼äµÄÒÀÀµ¹ØÏµÈçºÎ¿´
+### SpringCloudå’ŒSpringbootä¹‹é—´çš„ä¾èµ–å…³ç³»å¦‚ä½•çœ‹
 
 - https://spring.io/projects/spring-cloud#overview
-- ÒÀÀµ
-- ¸üÏêÏ¸µÄ°æ±¾¶ÔÓ¦²é¿´·½·¨
+- ä¾èµ–
+- æ›´è¯¦ç»†çš„ç‰ˆæœ¬å¯¹åº”æŸ¥çœ‹æ–¹æ³•
 
   - https://start.spring.io/actuator/info
 
-  - ²é¿´json´®·µ»Ø½á¹û
+  - æŸ¥çœ‹jsonä¸²è¿”å›ç»“æœ
 
-### »·¾³
+### ç¯å¢ƒ
 
 ```
-- cloud£ºHoxton.SR1
+- cloudï¼šHoxton.SR1
 
-- boot£º2.2.2.RELEASE
+- bootï¼š2.2.2.RELEASE
 
-- cloud Alibaba£º2.1.0.RELEASE
+- cloud Alibabaï¼š2.1.0.RELEASE
 
-- java£º JAVA8
+- javaï¼š JAVA8
 
-- maven£º 3.5¼°ÒÔÉÏ
+- mavenï¼š 3.5åŠä»¥ä¸Š
 
-- mysql£º5.7¼°ÒÔÉÏ
+- mysqlï¼š5.7åŠä»¥ä¸Š
 
-- ²»Ğíµ·µ°£¬ÉÏÊöÈ«²¿°æ±¾±ØĞëºÍÑô¸çÒ»ÖÂ
-- ÌâÍâ»°
-	-boot°æÒÑ¾­µ½2.2.4Îª×îĞÂ£¬ÎªÊ²Ã´Ñ¡2.2.2£¿
-    - Ö»ÓÃboot£¬Ö±½ÓÓÃ×îĞÂ
+- ä¸è®¸æ£è›‹ï¼Œä¸Šè¿°å…¨éƒ¨ç‰ˆæœ¬å¿…é¡»å’Œé˜³å“¥ä¸€è‡´
+- é¢˜å¤–è¯
+	-bootç‰ˆå·²ç»åˆ°2.2.4ä¸ºæœ€æ–°ï¼Œä¸ºä»€ä¹ˆé€‰2.2.2ï¼Ÿ
+    - åªç”¨bootï¼Œç›´æ¥ç”¨æœ€æ–°
       - Subtopic
-    - Í¬Ê±ÓÃbootºÍcloud£¬ĞèÒªÕÕ¹Ëcloud£¬ÓÉcloud¾ö¶¨boot°æ±¾
-      - ½á¹û
-    - SpringCloudºÍSpringBoot°æ±¾¶ÔÓ¦¹ØÏµ
-  - 2.X°æ±¾³£ÓÃµÄ×é¼şpom
+    - åŒæ—¶ç”¨bootå’Œcloudï¼Œéœ€è¦ç…§é¡¾cloudï¼Œç”±cloudå†³å®šbootç‰ˆæœ¬
+      - ç»“æœ
+    - SpringCloudå’ŒSpringBootç‰ˆæœ¬å¯¹åº”å…³ç³»
+  - 2.Xç‰ˆæœ¬å¸¸ç”¨çš„ç»„ä»¶pom
 ```
 
 
 
-## Cloud¸÷ÖÖ×é¼şµÄÍ£¸ü/Éı¼¶/Ìæ»»
+## Cloudå„ç§ç»„ä»¶çš„åœæ›´/å‡çº§/æ›¿æ¢
 
-### ÓÉÍ£¸üÒı·¢µÄ¡°Éı¼¶²Ò°¸¡±
+### ç”±åœæ›´å¼•å‘çš„â€œå‡çº§æƒ¨æ¡ˆâ€
 
-- Í£¸ü²»Í£ÓÃ
+- åœæ›´ä¸åœç”¨
 
-  - ±»¶¯ĞŞ¸´bugs
-  - ²»ÔÙ½ÓÊÜºÏ²¢ÇëÇó
-  - ²»ÔÙ·¢²¼ĞÂ°æ±¾
+  - è¢«åŠ¨ä¿®å¤bugs
+  - ä¸å†æ¥å—åˆå¹¶è¯·æ±‚
+  - ä¸å†å‘å¸ƒæ–°ç‰ˆæœ¬
 
-- Ã÷Ï¸ÌõÄ¿
+- æ˜ç»†æ¡ç›®
 
-  - ÒÔÇ°
+  - ä»¥å‰
   - now2020
 
 
 
-### ²Î¿¼×ÊÁÏ¼û¹ÙÍø
-
-	Spring Cloud
-		https://cloud.spring.io/spring-cloud-static/Hoxton.SR1/reference/htmlsingle/
-		Spring CloudÖĞÎÄÎÄµµ
-			https://www.bookstack.cn/read/spring-cloud-docs/docs-index.md
-	Spring Boot
-		https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/
-
-
-
-## Î¢·şÎñ½á¹¹±àÂë¹¹½¨
-
-Ô¼¶¨ > ÅäÖÃ > ±àÂë
+### å‚è€ƒèµ„æ–™è§å®˜ç½‘
+â€‹	Spring Cloud
+â€‹		https://cloud.spring.io/spring-cloud-static/Hoxton.SR1/reference/htmlsingle/
+â€‹		Spring Cloudä¸­æ–‡æ–‡æ¡£
+â€‹			https://www.bookstack.cn/read/spring-cloud-docs/docs-index.md
+â€‹	Spring Boot
+â€‹		https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/
 
 
 
-### idea ÏîÄ¿¹¹½¨
+## å¾®æœåŠ¡ç»“æ„ç¼–ç æ„å»º
 
-Î¢·şÎñcloudÕûÌå¾ÛºÏ¸¸¹¤³ÌProject
-	¸¸¹¤³Ì²½Öè
-		1.New Project£¨Maven site project£©
-		2.¾ÛºÏ×Ü¹¤³ÌÃû×Ö
-		3.MavenÑ¡°æ±¾
-		4.¹¤³ÌÃû×Ö
-		5.×Ö·û±àÂë(ÏîÄ¿ËùÓĞ±àÂëÊ¹ÓÃutf-8)
-		6.×¢½âÉúĞ§¼¤»î(setting)
-		7.java±àÒë°æ±¾Ñ¡8(idea Ä¬ÈÏÅäÖÃÖĞÉèÖÃ)
-		8.File Type¹ıÂË
-
-¸¸¹¤³ÌPOM
-
-	https://github.com/x-emory/cloud/blob/master/pom.xml
-	
-	MavenÖĞµÄdependencyManagementºÍdependencies À´¹ÜÀí×ÓÄ£¿éÏÂËùÓĞdependencies °æ±¾
-	
-	mavenÖĞÌø¹ıµ¥Ôª²âÊÔ£¨idea ÓÒ²àÀ¸maven¹´ÖĞÉÁµç£©
-
-¸¸¹¤³Ì´´½¨Íê³ÉÖ´ĞĞmvn:install½«¸¸¹¤³Ì·¢²¼µ½²Ö¿â·½±ã×Ó¹¤³Ì¼Ì³Ğ
+çº¦å®š > é…ç½® > ç¼–ç 
 
 
 
-#### Rest Î¢·şÎñÏîÄ¿¹¹½¨
+### idea é¡¹ç›®æ„å»º
 
-¹¹½¨²½Öè
+å¾®æœåŠ¡cloudæ•´ä½“èšåˆçˆ¶å·¥ç¨‹Project
+	çˆ¶å·¥ç¨‹æ­¥éª¤
+		1.New Projectï¼ˆMaven site projectï¼‰
+		2.èšåˆæ€»å·¥ç¨‹åå­—
+		3.Mavené€‰ç‰ˆæœ¬
+		4.å·¥ç¨‹åå­—
+		5.å­—ç¬¦ç¼–ç (é¡¹ç›®æ‰€æœ‰ç¼–ç ä½¿ç”¨utf-8)
+		6.æ³¨è§£ç”Ÿæ•ˆæ¿€æ´»(setting)
+		7.javaç¼–è¯‘ç‰ˆæœ¬é€‰8(idea é»˜è®¤é…ç½®ä¸­è®¾ç½®)
+		8.File Typeè¿‡æ»¤
 
-- 	¹¹½¨xxxÎ¢·şÎñÌá¹©ÕßModuleÄ£¿é£¬¹¹½¨Íê»Ø¸¸¹¤³Ì¿´ÏÂpomÎÄ¼ş±ä»¯
-- 	Ğ´pom
-- 	Ğ´yaml
-- 	Ö÷Æô¶¯
-- 	ÒµÎñ±àÂë --	SQL -> entitles -> dao -> servicve -> controller
+çˆ¶å·¥ç¨‹POM
 
-¹¹½¨Íê³ÉÒ»¸öÄ£¿éºó½øĞĞ²âÊÔ
+â€‹	https://github.com/x-emory/cloud/blob/master/pom.xml
 
-	¿ÉÒÔÍ¨¹ıchrome²å¼ş
-	
-	Í¨¹ı postman
+â€‹	Mavenä¸­çš„dependencyManagementå’Œdependencies æ¥ç®¡ç†å­æ¨¡å—ä¸‹æ‰€æœ‰dependencies ç‰ˆæœ¬
 
-ÔËĞĞ
+â€‹	mavenä¸­è·³è¿‡å•å…ƒæµ‹è¯•ï¼ˆidea å³ä¾§æ mavenå‹¾ä¸­é—ªç”µï¼‰
 
-	idea ÖĞ¿ªÆô¶à¸öÏîÄ¿»á×Ô¶¯ÌáÊ¾ÊÇ·ñÒª¿ªÆôRun DashBoard´°¿Ú
-	
-		Èç¹û`Ã»ÓĞ¿ªÆô`¿ÉÒÔÍ¨¹ıĞŞ¸ÄideaµÄworkpace.xmlµÄ·½Ê½À´¿ìËÙ´ò¿ªRun DashBoard´°¿Ú
-	
-	²¿·Öidea°æ±¾²»Í¬¿ÉÄÜĞèÒªÖØÆô
-
+çˆ¶å·¥ç¨‹åˆ›å»ºå®Œæˆæ‰§è¡Œmvn:installå°†çˆ¶å·¥ç¨‹å‘å¸ƒåˆ°ä»“åº“æ–¹ä¾¿å­å·¥ç¨‹ç»§æ‰¿
 
 
-#### ÈÈ²¿Êğ
 
-bootÒ²ÓĞÒ»Ì×ÈÈ²¿Êğ·½°¸ 
+#### Rest å¾®æœåŠ¡é¡¹ç›®æ„å»º
 
-		ÈÈ²¿Êğ£ºidea£¬SpringbootÍÆ¼öSpring-boot-devtoolsÀ´ÊµÏÖÈÈ²¿Êğ¡£+ ¿ì½İ¼ü ctrl+F9
+æ„å»ºæ­¥éª¤
+
+- â€‹	æ„å»ºxxxå¾®æœåŠ¡æä¾›è€…Moduleæ¨¡å—ï¼Œæ„å»ºå®Œå›çˆ¶å·¥ç¨‹çœ‹ä¸‹pomæ–‡ä»¶å˜åŒ–
+- â€‹	å†™pom
+- â€‹	å†™yaml
+- â€‹	ä¸»å¯åŠ¨
+- â€‹	ä¸šåŠ¡ç¼–ç  --	SQL -> entitles -> dao -> servicve -> controller
+
+æ„å»ºå®Œæˆä¸€ä¸ªæ¨¡å—åè¿›è¡Œæµ‹è¯•
+
+â€‹	å¯ä»¥é€šè¿‡chromeæ’ä»¶
+
+â€‹	é€šè¿‡ postman
+
+è¿è¡Œ
+
+â€‹	idea ä¸­å¼€å¯å¤šä¸ªé¡¹ç›®ä¼šè‡ªåŠ¨æç¤ºæ˜¯å¦è¦å¼€å¯Run DashBoardçª—å£
+
+â€‹		å¦‚æœ`æ²¡æœ‰å¼€å¯`å¯ä»¥é€šè¿‡ä¿®æ”¹ideaçš„workpace.xmlçš„æ–¹å¼æ¥å¿«é€Ÿæ‰“å¼€Run DashBoardçª—å£
+
+â€‹	éƒ¨åˆ†ideaç‰ˆæœ¬ä¸åŒå¯èƒ½éœ€è¦é‡å¯
+
+
+
+#### çƒ­éƒ¨ç½²
+
+bootä¹Ÿæœ‰ä¸€å¥—çƒ­éƒ¨ç½²æ–¹æ¡ˆ 
+
+â€‹		çƒ­éƒ¨ç½²ï¼šideaï¼ŒSpringbootæ¨èSpring-boot-devtoolsæ¥å®ç°çƒ­éƒ¨ç½²ã€‚+ å¿«æ·é”® ctrl+F9
 
 
 
@@ -197,42 +191,42 @@ cloud:
 
 4.Update the value of
 
-5.ÖØÆôIDEA
+5.é‡å¯IDEA
 
-idea ÖĞ ctrl+shift+alt+/ Ñ¡ÖĞ xxx...app.running ºÍ xxx...assertFocusAccessFormat	-Ö±½ÓËÑË÷Ñ¡ÖĞ¼´¿É
+idea ä¸­ ctrl+shift+alt+/ é€‰ä¸­ xxx...app.running å’Œ xxx...assertFocusAccessFormat	-ç›´æ¥æœç´¢é€‰ä¸­å³å¯
 
 
 
-#### Î¢·şÎñÏû·ÑÕßModuleÄ£¿é
+#### å¾®æœåŠ¡æ¶ˆè´¹è€…Moduleæ¨¡å—
 
-¹¹½¨²½Öè
+æ„å»ºæ­¥éª¤
 
-- 	¹¹½¨xxxÎ¢·şÎñÌá¹©ÕßModuleÄ£¿é£¬¹¹½¨Íê»Ø¸¸¹¤³Ì¿´ÏÂpomÎÄ¼ş±ä»¯
-- 	Ğ´pom
-- 	Ğ´yaml
-- 	Ö÷Æô¶¯
-- 	ÒµÎñ±àÂë -- µ÷ÓÃÌá¹©ÕßÌá¹©·şÎñ
-    	RestTemplate
-    		ÊÇÊ²Ã´£ºÀàËÆÓÚJdbcTempleate..
-    		¹ÙÍø¼°Ê¹ÓÃ:
+- â€‹	æ„å»ºxxxå¾®æœåŠ¡æä¾›è€…Moduleæ¨¡å—ï¼Œæ„å»ºå®Œå›çˆ¶å·¥ç¨‹çœ‹ä¸‹pomæ–‡ä»¶å˜åŒ–
+- â€‹	å†™pom
+- â€‹	å†™yaml
+- â€‹	ä¸»å¯åŠ¨
+- â€‹	ä¸šåŠ¡ç¼–ç  -- è°ƒç”¨æä¾›è€…æä¾›æœåŠ¡
+  â€‹	RestTemplate
+  â€‹		æ˜¯ä»€ä¹ˆï¼šç±»ä¼¼äºJdbcTempleate..
+  â€‹		å®˜ç½‘åŠä½¿ç”¨:
   - https://docs.spring.io/spring-framework/docs/5.2.2.RELEASE/javadoc-api/org/springframework/web/client/RestTemplate.html
-  - configÅäÖÃÀà
-    ApplicationContextConfig:https://github.com/x-emory/cloud/blob/master/cloud-consumer-order80/src/main/java/com/emory/springcloud/config/ApplicationContextConfig.java
-    	´´½¨controller
+  - configé…ç½®ç±»
+    		ApplicationContextConfig:https://github.com/x-emory/cloud/blob/master/cloud-consumer-order80/src/main/java/com/emory/springcloud/config/ApplicationContextConfig.java
+      	åˆ›å»ºcontroller
 
-²âÊÔ
+æµ‹è¯•
 
-²»ÒªÍü¼Ç@RequestBody×¢½â
+ä¸è¦å¿˜è®°@RequestBodyæ³¨è§£
 
 
 
-#### ÏîÄ¿ÖØ¹¹
+#### é¡¹ç›®é‡æ„
 
-ÎÊÌâ£ºÏµÍ³ÖĞÖØ¸´²¿·Ö£¬ÖØ¹¹
+é—®é¢˜ï¼šç³»ç»Ÿä¸­é‡å¤éƒ¨åˆ†ï¼Œé‡æ„
 
-½«ÖØ¸´²¿·Ö³éÈ¡³öÀ´£º´´½¨Ò»¸öĞÂµÄcloud-api-commons modles ´æ·Å
+å°†é‡å¤éƒ¨åˆ†æŠ½å–å‡ºæ¥ï¼šåˆ›å»ºä¸€ä¸ªæ–°çš„cloud-api-commons modles å­˜æ”¾
 
-	POM
+â€‹	POM
 
 ```xml
    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
@@ -254,14 +248,14 @@ idea ÖĞ ctrl+shift+alt+/ Ñ¡ÖĞ xxx...app.running ºÍ xxx...assertFocusAccessFormat
         </dependency>
 ```
 
-	entities
-		PaymentÊµÌå
-		CommonResultÍ¨ÓÃ·â×°Àà
-	mavenÃüÁîclean install
+â€‹	entities
+â€‹		Paymentå®ä½“
+â€‹		CommonResulté€šç”¨å°è£…ç±»
+â€‹	mavenå‘½ä»¤clean install
 
-¶©µ¥80ºÍÖ§¸¶8001·Ö±ğ¸ÄÔì
-	É¾³ı¸÷×ÔµÄÔ­ÏÈÓĞ¹ıµÄentitiesÎÄ¼ş¼Ğ
-	¸÷×Ôğ¤ÌùPOMÄÚÈİ
+è®¢å•80å’Œæ”¯ä»˜8001åˆ†åˆ«æ”¹é€ 
+	åˆ é™¤å„è‡ªçš„åŸå…ˆæœ‰è¿‡çš„entitiesæ–‡ä»¶å¤¹
+	å„è‡ªé»è´´POMå†…å®¹
 
 ```xml
 <dependency>
@@ -271,4 +265,125 @@ idea ÖĞ ctrl+shift+alt+/ Ñ¡ÖĞ xxx...app.running ºÍ xxx...assertFocusAccessFormat
 </dependency>
 ```
 
-×Ü½á£º½«ÈßÓà¿ÉÒÔ¹²ÏíµÄ²¿·Ö³éÈ¡³öÀ´Ò»¸öĞÂµÄÄ£¿é£¬Í¨¹ımaven ´ò°üºóÆäËüÄ£¿éÒıÓÃ¼´¿É
+æ€»ç»“ï¼šå°†å†—ä½™å¯ä»¥å…±äº«çš„éƒ¨åˆ†æŠ½å–å‡ºæ¥ä¸€ä¸ªæ–°çš„æ¨¡å—ï¼Œé€šè¿‡maven æ‰“åŒ…åå…¶å®ƒæ¨¡å—å¼•ç”¨å³å¯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
