@@ -1,5 +1,25 @@
 # cloud
 
+
+* [cloud](#cloud)
+  * [微服务架构](#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84)
+  * [2\.2\.x 和 H 版](#22x-%E5%92%8C-h-%E7%89%88)
+    * [简介](#%E7%AE%80%E4%BB%8B)
+    * [目录](#%E7%9B%AE%E5%BD%95)
+    * [Springboot版本选择](#springboot%E7%89%88%E6%9C%AC%E9%80%89%E6%8B%A9)
+    * [SpringCloud版本选择](#springcloud%E7%89%88%E6%9C%AC%E9%80%89%E6%8B%A9)
+    * [SpringCloud和Springboot之间的依赖关系如何看](#springcloud%E5%92%8Cspringboot%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E5%A6%82%E4%BD%95%E7%9C%8B)
+    * [环境](#%E7%8E%AF%E5%A2%83)
+  * [Cloud各种组件的停更/升级/替换](#cloud%E5%90%84%E7%A7%8D%E7%BB%84%E4%BB%B6%E7%9A%84%E5%81%9C%E6%9B%B4%E5%8D%87%E7%BA%A7%E6%9B%BF%E6%8D%A2)
+    * [由停更引发的“升级惨案”](#%E7%94%B1%E5%81%9C%E6%9B%B4%E5%BC%95%E5%8F%91%E7%9A%84%E5%8D%87%E7%BA%A7%E6%83%A8%E6%A1%88)
+    * [参考资料见官网](#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E8%A7%81%E5%AE%98%E7%BD%91)
+  * [微服务结构编码构建](#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BB%93%E6%9E%84%E7%BC%96%E7%A0%81%E6%9E%84%E5%BB%BA)
+    * [idea 项目构建](#idea-%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA)
+      * [Rest 微服务项目构建](#rest-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E9%A1%B9%E7%9B%AE%E6%9E%84%E5%BB%BA)
+      * [热部署](#%E7%83%AD%E9%83%A8%E7%BD%B2)
+      * [微服务消费者Module模块](#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%B6%88%E8%B4%B9%E8%80%85module%E6%A8%A1%E5%9D%97)
+      * [项目重构](#%E9%A1%B9%E7%9B%AE%E9%87%8D%E6%9E%84)
+
 ## 微服务架构
 
 
