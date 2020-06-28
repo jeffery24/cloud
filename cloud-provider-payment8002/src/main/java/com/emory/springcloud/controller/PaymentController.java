@@ -5,12 +5,9 @@ import com.emory.springcloud.entity.Payment;
 import com.emory.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @Slf4j
 @RestController
@@ -20,8 +17,6 @@ public class PaymentController {
     private PaymentService paymentService;
     @Value("${server.port}")
     private String port;
-    @Resource
-    private DiscoveryClient discoveryClient;
 
     @PostMapping(value = "/payment/create")
     public CommonResult insert(@RequestBody Payment payment) {
@@ -30,7 +25,7 @@ public class PaymentController {
         if (resultCount > 0) {
             return new CommonResult(200, "插入数据库成功", resultCount);
         } else {
-            return new CommonResult(444, "插入数据库失败" + "dsjoifj", null);
+            return new CommonResult(444, "插入数据库失败"+"dsjoifj", null);
 
         }
     }
@@ -40,27 +35,14 @@ public class PaymentController {
         Payment payment = paymentService.getPaymentById(id);
         log.info("插入结果:" + payment);
         if (payment != null) {
-            return new CommonResult(200, "查询成功," + port, payment);
+            return new CommonResult(200, "查询成功,"+port, payment);
         } else {
-            return new CommonResult(444, "查询失败" + port, null);
+            return new CommonResult(444, "查询成功"+port, null);
         }
     }
 
-    @GetMapping("/discovery")
-    public Object discovery() {
-        List<String> services = discoveryClient.getServices();
-        for (String service : services) {
-            log.info("service *** {}" + service);
-
-            List<ServiceInstance> instances = discoveryClient.getInstances(service);
-            for (ServiceInstance instance : instances) {
-                log.error("instance *** {}", instance);
-            }
-        }
 
 
-        return discoveryClient;
-    }
 
 }
 

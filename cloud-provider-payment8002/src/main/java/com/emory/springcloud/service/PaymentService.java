@@ -1,11 +1,8 @@
-package com.emory.springcloud.dao;
+package com.emory.springcloud.service;
 
 import com.emory.springcloud.entity.Payment;
-import org.apache.ibatis.annotations.Mapper;
 
-
-@Mapper
-public interface PaymentDao {
+public interface PaymentService {
     int create(Payment payment);
 
     Payment getPaymentById(Long id);
