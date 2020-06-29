@@ -49,6 +49,7 @@
 ​	官网看Boot版本 
 ​		 springboot(截至2019.10.26)
 ​		springboot(截至2020.2.15)
+
 ### SpringCloud版本选择
 ​	git源码地址
 ​		https://github.com/spring-projects/spring-cloud/wiki
@@ -117,8 +118,10 @@
 ### 参考资料见官网
 ​	Spring Cloud
 ​		https://cloud.spring.io/spring-cloud-static/Hoxton.SR1/reference/htmlsingle/
-​		Spring Cloud中文文档
+
+​	Spring Cloud中文文档
 ​			https://www.bookstack.cn/read/spring-cloud-docs/docs-index.md
+
 ​	Spring Boot
 ​		https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/
 
