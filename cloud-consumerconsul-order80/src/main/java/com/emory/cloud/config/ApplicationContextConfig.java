@@ -1,15 +1,21 @@
-package com.emory.springcloud.config;
+package com.emory.cloud.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @auther zzyy
+ * @create 2020-02-19 15:20
+ */
 @Configuration
-public class ApplicationContextConfig {
+public class ApplicationContextConfig
+{
     @Bean
-//    @LoadBalanced   //赋予 负载均衡能力
-    public RestTemplate getRestTemplate() {
+    @LoadBalanced
+    public RestTemplate getRestTemplate()
+    {
         return new RestTemplate();
     }
 }

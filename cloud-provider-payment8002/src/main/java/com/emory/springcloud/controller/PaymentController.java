@@ -25,7 +25,7 @@ public class PaymentController {
         if (resultCount > 0) {
             return new CommonResult(200, "插入数据库成功", resultCount);
         } else {
-            return new CommonResult(444, "插入数据库失败"+"dsjoifj", null);
+            return new CommonResult(444, "插入数据库失败" + "dsjoifj", null);
 
         }
     }
@@ -35,13 +35,16 @@ public class PaymentController {
         Payment payment = paymentService.getPaymentById(id);
         log.info("插入结果:" + payment);
         if (payment != null) {
-            return new CommonResult(200, "查询成功,"+port, payment);
+            return new CommonResult(200, "查询成功," + port, payment);
         } else {
-            return new CommonResult(444, "查询成功"+port, null);
+            return new CommonResult(444, "查询成功" + port, null);
         }
     }
 
-
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return port;
+    }
 
 
 }
