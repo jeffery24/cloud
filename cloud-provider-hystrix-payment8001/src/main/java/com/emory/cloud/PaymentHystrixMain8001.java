@@ -20,6 +20,7 @@ public class PaymentHystrixMain8001 {
         SpringApplication.run(PaymentHystrixMain8001.class, args);
     }
 
+
     @Bean
     public ServletRegistrationBean getServlet() {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
